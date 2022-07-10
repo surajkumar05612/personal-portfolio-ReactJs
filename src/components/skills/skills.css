@@ -1,0 +1,13 @@
+.skills-parent{
+    padding: 1.5rem 3rem;
+    height: 60vh !important;
+}
+
+.skills-parent .skills-heading{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.skills-container{
+    margin-top: 5rem;
+}

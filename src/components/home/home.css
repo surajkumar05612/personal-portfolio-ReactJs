@@ -45,7 +45,6 @@ section .home-parent{
     border-radius: 10px;
     height: 25rem;
     width: 20rem;
-    z-index: -1;
 }
 
 .home-parent .home-right .neomorph-1 img{
@@ -111,9 +110,14 @@ a:hover{
         width: 100%;
     }
 
+    .home-parent .home-right{
+        z-index: -1;
+    }
+
     .home-parent .home-right .neomorph-1{
         width: 15rem;
         height: 20rem;
+        z-index: -1;
     }
 
     .home-parent .home-right .neomorph-1 img{
