@@ -11,9 +11,16 @@ function Navbar() {
         navRef.current.classList.toggle("responsive_bar");
     }
 
+    const Header = () =>{
+        window.addEventListener("scroll", function () {
+            const header = this.document.querySelector(".header")
+            header.classList.toggle("active", window.screenY > 100)
+        })
+    }
+
     return(
         <>
-            <header>
+            <header className="header">
                 <div className="logo">
                     <img src={logo} alt="logo"></img>
                     <h2>Lovely Professional University</h2>

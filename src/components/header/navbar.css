@@ -58,6 +58,15 @@ header .nav-btn{
     font-size: 1.5rem;
 }
 
+.header.active{
+    height: 10vh;
+    z-index: 1000;
+    width: 100%;
+    background-color: #ecf0f3;
+    box-shadow: -1px 11px 24px -11px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+}
+
 @media only screen and (max-width: 1024px) {
     header .nav-btn{
         visibility: visible;
@@ -71,6 +80,10 @@ header .nav-btn{
     header .logo img{
         width: 2.5rem;
         height: 2.5rem;
+    }
+
+    header .logo h2{
+        font-size: 1rem;
     }
 
     header nav{
@@ -88,6 +101,7 @@ header .nav-btn{
         color: #ffffff;
         transition: 1s;
         transform: translateY(-100vh);
+        z-index: 9999;
     }
 
     header .responsive_bar{

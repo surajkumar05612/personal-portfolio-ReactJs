@@ -33,13 +33,13 @@ function Home() {
                     <h2 className="contact-heading">Drop Me a Message</h2>
                     <div className="social-bar">
                     <button className="primary">
-                        <FaWhatsapp />
+                        <a href="https://wa.me/9348864738" target="blank"><FaWhatsapp /></a>
                     </button>
                     <button className="primary">
-                        <FaInstagram/>
+                        <a href="https://www.instagram.com/surajkumarjena.005612/" target="blank"><FaInstagram/></a>
                     </button>
                     <button className="primary">
-                        <FaFacebook />
+                    <a href="https://www.facebook.com/suraj.jena.771/" target="blank"><FaFacebook/></a>
                     </button>
                     </div>
                 </div>
