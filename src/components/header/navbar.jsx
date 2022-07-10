@@ -2,7 +2,7 @@ import React from "react";
 import "./navbar.css";
 import { useRef } from "react";
 import {FaBars, FaTimes} from "react-icons/fa";
-import logo from "./../../assets/logo1.png";
+import logo from "./../../assets/lpu.png";
 
 function Navbar() {
     const navRef = useRef();
@@ -16,7 +16,7 @@ function Navbar() {
             <header>
                 <div className="logo">
                     <img src={logo} alt="logo"></img>
-                    <h2>Suraj Kumar Jena</h2>
+                    <h2>Lovely Professional University</h2>
                 </div>
                 <nav ref={navRef}>
                     <a href="#home">Home</a>

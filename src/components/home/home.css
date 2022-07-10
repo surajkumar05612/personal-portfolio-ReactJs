@@ -1,0 +1,88 @@
+.body-font{
+    color: #444444;
+    font-size: 1rem;
+}
+
+span{
+    color: #f62456;
+}
+
+section{
+    height: 90vh;
+}
+
+section .home-parent{
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-parent .home-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.home-parent .home-left .welcome{
+    font-weight: 500;
+}
+
+.home-parent .home-left .home-heading{
+    font-weight: 700;
+    font-size: 2.3rem;
+}
+
+.home-parent .home-right{
+    position: relative;
+}
+
+.home-parent .home-right .neomorph-1{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    border-radius: 10px;
+    height: 25rem;
+    width: 20rem;
+}
+
+.home-parent .home-right .neomorph-1 img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20rem;
+    height: 25rem;
+}
+
+.contact{
+    padding: 1.5rem 3rem;
+}
+
+.contact .social-bar{
+    padding-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.contact .social-bar button{
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    color: #f62456;
+    transition: all 0.3s ease;
+}
+
+.contact .social-bar button:hover{
+    cursor: pointer;
+    color: #ffffff;
+    background: #f62456;
+    transform: scale(1.1);
+}
