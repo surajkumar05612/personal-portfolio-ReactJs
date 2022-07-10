@@ -7,7 +7,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 function Home() {
     return(
         <>
-            <section>
+            <section id="home">
                 <div className="home-parent">
                     <div className="home-left">
                         <p className="body-font text-color welcome">WELCOME TO MY WORLD</p>

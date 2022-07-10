@@ -39,6 +39,7 @@ function Navbar() {
                 <button className="nav-btn nav-open-btn" onClick={showNavbar}>
                     <FaBars />
                 </button>
+                {Header}
             </header>
         </>
     )
