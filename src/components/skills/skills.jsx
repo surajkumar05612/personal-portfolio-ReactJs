@@ -28,7 +28,8 @@ function Skills() {
     };
 
     return(
-        <>
+        <>      
+        <section id="skills">
                 <div className="skills-parent">
                     <h2 className="skills-heading">Skills I Own</h2>
                     <div className="skills-container">
@@ -66,6 +67,7 @@ function Skills() {
                         </Slider>
                     </div>
                 </div>
+                </section>
         </>
     )
 }

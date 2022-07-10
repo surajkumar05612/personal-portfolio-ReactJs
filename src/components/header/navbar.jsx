@@ -27,9 +27,9 @@ function Navbar() {
                 </div>
                 <nav ref={navRef}>
                     <a href="#home">Home</a>
+                    <a href="#academics">Academics</a>
                     <a href="#skills">Skills</a>
-                    <a href="#academics">Projects</a>
-                    <a href="#home">Services</a>
+                    <a href="#project">Projects</a>
                     <a href="#home">About</a>
                     <a href="#home">Contact</a>
                     <button className="nav-btn nav-close-btn" onClick={showNavbar}>
