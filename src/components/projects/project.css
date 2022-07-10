@@ -1,0 +1,28 @@
+section .project-parent{
+    padding: 1.5rem 3rem;
+}
+
+.project-parent .project-heading{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.project-parent .project-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.project-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 40%;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+

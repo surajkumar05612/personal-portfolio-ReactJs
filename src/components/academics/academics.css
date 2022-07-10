@@ -22,11 +22,12 @@ section .academics-parent .academics-heading{
     flex-direction: column;
     gap: 1rem;
     width: 40%;
-    padding: 1rem;
+    padding: 2rem;
     background: linear-gradient(145deg, #e2e8ec, #ffffff);
     box-shadow: 4px 4px 8px #cbcbcb, 4px -4px 8px #ffffff;
     border-radius: 10px;
     transition: all 0.3s ease;
+    height: 14rem;
 }
 
 .academics-container .academics-card:hover{
