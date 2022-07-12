@@ -1,7 +1,5 @@
 import React from "react";
 import "./project.css";
-import Project_data from "./data";
-import Card from "./card.jsx";
 
 const Project = () =>{
     return(
@@ -13,30 +11,30 @@ const Project = () =>{
                     <div className="project-grid">
                         <div className="project-card">
                             <h2 className="title">Weather App</h2>
-                            <a href="#home">Go To Project</a>
+                            <a href="https://github.com/surajkumar05612/weather-app" blank="blank">Go To Project</a>
                             <p className="project-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, libero, omnis tempora numquam laudantium facere voluptatibus atque maiores veniam aspernatur soluta repellat nihil qui labore!
+                                Basic Weather App developed using HTML, CSS and JS. I have Used open Weather API to fetch live data of all cities. Simply we have to enter the city name and it will fetch the data of that city and will display in screen.
                             </p>
                         </div>
                         <div className="project-card">
                             <h2 className="title">ToDo- ReactJs</h2>
-                            <a href="#home">Go To Project</a>
+                            <a href="https://github.com/surajkumar05612/ToDo-React" target="blank">Go To Project</a>
                             <p className="project-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, libero, omnis tempora numquam laudantium facere voluptatibus atque maiores veniam aspernatur soluta repellat nihil qui labore!
+                                ToDo App Developed using ReactJs, HTML, CSS and JS. We can add, edit and delete our list. The data is getting stored in local storage.
                             </p>
                         </div>
                         <div className="project-card">
                             <h2 className="title">Grow Your Farms</h2>
-                            <a href="#home">Go To Project</a>
+                            <a href="https://growyourfarms.netlify.app/" target="blank">Go To Project</a>
                             <p className="project-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, libero, omnis tempora numquam laudantium facere voluptatibus atque maiores veniam aspernatur soluta repellat nihil qui labore!
+                                Developed a Full fledged responsive and dynamic website for a Tamil Nadu startup project. Implemented dynamic features like payment gateway, blog and success stories. As its confidential you can visit the hosted site.
                             </p>
                         </div>
                         <div className="project-card">
                             <h2 className="title">personal Portfolio</h2>
-                            <a href="#home">Go To Project</a>
+                            <a href="https://github.com/surajkumar05612/personal-portfolio-reactjs" target="blank">Go To Project</a>
                             <p className="project-body">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, libero, omnis tempora numquam laudantium facere voluptatibus atque maiores veniam aspernatur soluta repellat nihil qui labore!
+                                Developed my own portfolio using HTML, CSS, ReactJS and some react libraries. Made it as an assignment during programming pathsala MERN Stack course.
                             </p>
                         </div>
                     </div>
